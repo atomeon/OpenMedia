@@ -1,4 +1,4 @@
-#OpenMedia project
+# OpenMedia project
 
 ### Installation
 
