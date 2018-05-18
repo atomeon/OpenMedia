@@ -1,0 +1,58 @@
+.hero {
+  background-color: $primary-color;
+  min-height: rem(450);
+  padding-top: rem(110);
+  color: #fff;
+}
+
+h1 + .subheader {
+  font-size: rem(24);
+  padding: 0;
+  margin: 0;
+  margin-top: rem(20);
+}
+
+.title {
+  margin-bottom: rem(60);
+}
+
+.hero-subtitle {
+  max-width: 70%;
+}
+
+h2 {
+  margin-bottom: rem(30);
+}
+
+.service-title {
+  font-weight: 700;
+  margin-bottom: rem(20);
+  font-size: rem(16);
+}
+
+.service-card img {
+  margin-bottom: rem(20);
+}
+
+p {
+  font-size: rem(14);
+}
+
+.services {
+  padding-top: rem(35);
+  margin-bottom: rem(40);
+}
+
+.contacts-title {
+  margin-bottom: rem(10);
+}
+
+.contacts-email a {
+  font-size: rem(24);
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.contacts {
+  padding-bottom: rem(55);
+}

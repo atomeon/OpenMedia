@@ -1,0 +1,15 @@
+footer {
+  background-color: $theme-gray;
+  padding-top: rem(20);
+  min-height: rem(120);
+  padding-bottom: rem(30);
+}
+
+.footer-adress {
+  p {
+    margin-bottom: rem(10);
+  }
+  a {
+    font-size: rem(14);
+  }
+}
