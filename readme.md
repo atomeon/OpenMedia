@@ -1,5 +1,7 @@
 # OpenMedia project
 
+published at https://atomeon.github.io/OpenMedia/
+
 ### Installation
 
 To manually set up the template, first download it with Git:
