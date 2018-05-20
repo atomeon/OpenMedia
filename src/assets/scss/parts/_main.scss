@@ -130,6 +130,9 @@ p {
   }
   color: $primary-color;
   text-decoration: underline;
+  &:hover {
+    border: none;
+  }
 }
 
 .contacts {
