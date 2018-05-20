@@ -1,3 +1,13 @@
+p {
+  font-size: rem(14);
+}
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .hero {
   background-color: $primary-color;
   min-height: rem(450);
@@ -13,11 +23,19 @@ h1 + .subheader {
 }
 
 .title {
-  margin-bottom: rem(60);
+  margin-bottom: rem(50);
 }
 
+// .hero-info {
+//   .grid-x {
+//     font-size: rem(14);
+//   }
+// }
+
 .hero-subtitle {
-  max-width: 70%;
+  max-width: rem(360);
+  font-size: rem(16);
+  margin-bottom: rem(20);
 }
 
 h2 {
@@ -48,6 +66,7 @@ p {
 }
 
 .contacts-email a {
+  line-height: 1;
   font-size: rem(24);
   color: $primary-color;
   text-decoration: underline;

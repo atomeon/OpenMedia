@@ -1,5 +1,8 @@
 .header-logo {
-  font-size: rem(38);
+  font-size: rem(20);
+  @include breakpoint(medium) {
+    font-size: rem(38);
+  }
   font-weight: 700;
 }
 header {
