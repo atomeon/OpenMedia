@@ -5,13 +5,12 @@ p {
 a {
   border-bottom: 1px solid;
   border-color: transparent;
-  transition: all .3s;
+  transition: all 0.3s;
   &:hover {
     transition-duration: 0s;
-    padding-bottom: rem(.1);
+    padding-bottom: rem(0.1);
     // text-decoration: underline; text-decoration: underline;
     border-color: currentColor;
-
   }
 }
 
@@ -21,7 +20,6 @@ a {
   color: #fff;
   @include breakpoint(large) {
     height: rem(450);
-    
   }
 }
 
@@ -43,7 +41,7 @@ h1 + .subheader {
   .grid-x {
     p {
       &:before {
-        content: '- ';
+        content: "- ";
         display: inline;
         @include breakpoint(large) {
           content: none;
@@ -65,14 +63,14 @@ h1 + .subheader {
   text-align: center;
   img {
     z-index: 0;
-      left: rem(30);
-      position: relative;
-      @include breakpoint(large) {
-        position: absolute;
-        bottom: 0;
-        right: rem(-85);
-        max-width: initial;
-        left: auto;
+    left: rem(30);
+    position: relative;
+    @include breakpoint(large) {
+      position: absolute;
+      bottom: 0;
+      right: rem(-85);
+      max-width: initial;
+      left: auto;
     }
   }
 }
@@ -81,13 +79,12 @@ h2 {
   margin-bottom: rem(30);
 }
 
-
 .service-card {
   text-align: center;
   @include breakpoint(large) {
     text-align: left;
   }
-  
+
   .service-title ~ p {
     text-align: left;
   }
